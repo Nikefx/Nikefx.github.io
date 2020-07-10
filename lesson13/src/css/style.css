@@ -1,0 +1,128 @@
+body {
+  background: url(bg.png);
+}
+.form {
+  border: 1px solid  #cfdede;
+  background-color: white;
+  width: 319px;
+  height: 370px;
+  margin-left: 123px;
+  margin-top: 100px;
+  display: inline-block;
+  position: absolute;
+}
+.form-title {
+  margin-top: 51px;
+  margin-left: 28px;
+  margin-bottom: 0;
+}
+.form-title p {
+  font-size: 12px ;
+  font-family: Arial;
+  font-weight: bold;
+}
+.form-title span {
+  color: #01b3b3;
+}
+.form-title-two {
+  margin-top: 56px;
+  margin-left: 28px;
+  margin-bottom: 0;
+}
+.form-title-two p {
+  font-size: 12px ;
+  font-family: Arial;
+  font-weight: bold;
+}
+.form-title-two span {
+  color: #01b3b3;
+}
+.form-title-three {
+  margin-top: 59px;
+  margin-left: 28px;
+  margin-bottom: 0;
+}
+.form-title-three p {
+  font-size: 12px ;
+  font-family: Arial;
+  font-weight: bold;
+}
+.form-title-three span {
+  color: #01b3b3;
+}
+.form-input {
+  border: 1px solid #cfdede;
+  background-image: url(bg.png);
+  position: absolute;
+  margin-left: 27px;
+  width: 261px;
+  height: 32px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 12px;
+  font-style: italic;
+  margin-top: -6px;
+}
+.form-input-two {
+  margin-top: -5px;
+  border: 1px solid #cfdede;
+  background-image: url(bg.png);
+  position: absolute;
+  margin-left: 27px;
+  width: 261px;
+  height: 32px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 12px;
+  font-style: italic;
+}
+.form-input-three {
+  margin-top: -5px;
+  border: 1px solid #cfdede;
+  background-image: url(bg.png);
+  position: absolute;
+  margin-left: 27px;
+  width: 261px;
+  height: 32px;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 12px;
+  font-style: italic;
+}
+.form-button {
+  margin-top: 76px;
+  margin-left: -4px;
+  text-align: center;
+}
+.form-btn {
+  border-radius: 3px;
+  border: none;
+  height: 45px;
+  width: 260px;
+  text-transform: uppercase;
+  background-color: #01c5c5;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.create {
+  display: inline-block;
+  position: absolute;
+  height: 25px;
+  width: 149px;
+  background-color: #01b3b3;
+  margin-left: 152px;
+  margin-top: 97px;
+}
+.create-header {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 4px;
+}
