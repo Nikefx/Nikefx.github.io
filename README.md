@@ -8,3 +8,4 @@
 [16 урок](https://nikefx.github.io/lesson14/src/ "Домашняя работа 16")
 [20 урок](https://nikefx.github.io/LESSON20/ "Домашняя работа 20")
 [21 урок](https://nikefx.github.io/Урок%2021/lesson15/src/ "Домашняя работа 21")
+[22 урок](https://nikefx.github.io/less22/src/ "Домашняя работа 22")
