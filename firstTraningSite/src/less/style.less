@@ -139,3 +139,112 @@ transition: all 0.4s;
 	box-shadow: 0 -14px 40px rgba(0,0,0,0.25), -10px 0 30px rgba(0,0,0,0.22);
 }
 }
+.two
+{
+	&-header
+	{
+		margin-top: 100px;
+		font-family: OpenSansBold;
+		font-size: 40px;
+		margin-bottom: 60px;
+	}
+	&-text{
+		font-family: OpenSansRg;
+		font-size: 16px;
+		margin-bottom: 60px;
+	}
+	&-button{
+border-radius: 5px;
+	color: @buttoncolor;
+	border: 2px solid @buttoncolor;
+	background-color: white;
+	height: 60px;
+width: 230px;
+margin-bottom: 125px;
+transition: all 0.4s;
+&:hover{
+	.button;
+	}
+}
+&-features
+{
+	display: inline-block;
+	& h2{
+		margin-top: 20px;
+		font-family: OpenSansSemibold;
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	& p{
+
+		font-family: OpenSansRg;
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
+	
+}
+}
+.features
+{
+	margin-top: 100px;
+}
+.box
+{
+	height: 2px;
+	background-color: #ececec;
+	margin-top: 50px;
+}
+.three
+{
+	&-header
+	{
+		margin-bottom: 10px;
+	}
+
+	&-text
+	{
+		text-align: center;
+		font-family: OpenSansRg;
+		font-size: 16px;
+
+	}
+	&-box{
+		height: 2px;
+		width: 140px;
+		background-color: @buttoncolor;
+		display: inline-block;
+
+	}
+	&-button
+	{
+		.button;
+		color: @textcolor;
+		background-color: white;
+		font-family: OpenSansBold;
+		text-transform: uppercase;
+		font-size: 22px;
+		padding: 20px;
+		transition: all 0.3s;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		&:hover{
+			color: @buttoncolor;
+		}
+	}
+	&-buttons
+	{
+		text-align: center;
+	}
+}
+.ddd
+{
+	
+	text-align: center;
+	display: inline-block;
+}
+.photo
+{
+	background-color: @boxcolor;
+	height: 230px;
+	margin-bottom: 30px;
+}
