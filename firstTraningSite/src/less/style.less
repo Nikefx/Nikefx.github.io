@@ -67,6 +67,7 @@
 
 
 }
+
 .button()
 {
 background-color: @buttoncolor;
@@ -199,6 +200,14 @@ transition: all 0.4s;
 	&-header
 	{
 		margin-bottom: 10px;
+		&-mark
+{
+	font-family: OpenSansSemibold;
+	color: @textcolor;
+	font-size: 30px;
+	margin-top: 70px;
+
+}
 	}
 
 	&-text
@@ -206,14 +215,25 @@ transition: all 0.4s;
 		text-align: center;
 		font-family: OpenSansRg;
 		font-size: 16px;
-
+		&-p
+{
+	margin-top: 20px;
+	font-family: OpenSansRg;
+		font-size: 16px;
+}
 	}
 	&-box{
 		height: 2px;
 		width: 140px;
 		background-color: @buttoncolor;
 		display: inline-block;
+&-img
+{
+	margin-top: 70px;
+	height: 455px;
+	background-color: @boxcolor;
 
+}
 	}
 	&-button
 	{
@@ -230,11 +250,40 @@ transition: all 0.4s;
 		&:hover{
 			color: @buttoncolor;
 		}
+		&-mark
+		{
+			margin-top: 15px;
+			padding: 10px;
+			background-color: white;
+			color: black;
+			font-family: OpenSansItalic;
+			border: none;
+			& a{
+				color: black;
+				font-size: 18px;
+				transition: all 0.3s;
+
+			&:hover{
+				text-decoration: none;
+				color: @buttoncolor;
+			}
+			}
+			
+		}
 	}
 	&-buttons
 	{
 		text-align: center;
 	}
+	&-img{
+		margin-top: 70px;
+		height: 200px;
+		background-color: @boxcolor;
+		margin-bottom: 100px;
+&:hover .box-box{
+	opacity: 80%;
+	}
+}
 }
 .ddd
 {
@@ -247,4 +296,61 @@ transition: all 0.4s;
 	background-color: @boxcolor;
 	height: 230px;
 	margin-bottom: 30px;
+}
+.sectionFour
+{
+	background-color: @boxcolor;
+}
+.box-box
+{
+
+	transform: translateY(470%);
+	height: 35px;
+	background-color: @textcolor;
+	color: white;
+	font-family: OpenSansSemibold;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 0%;
+	transition: opacity 0.5s;
+	
+	
+}
+.four
+{
+	&-header
+	{
+		font-family: OpenSansBold;
+		font-size: 42px;
+		margin-top: 130px;
+		color: white;
+		margin-bottom: 50px;
+
+	}
+	&-text
+	{
+		color: white;
+		font-family: OpenSansRg;
+		font-size: 16px;
+		margin-bottom: 60px;
+	}
+	&-button{
+		.button;
+		padding: 20px 40px;
+		text-align: center;
+		transition: all 0.3s;
+		&:hover{
+				color: @buttoncolor;
+	border: 2px solid @buttoncolor;
+	background-color: white;
+		}
+	}
+&-input{
+	width: 100%;
+	padding: 18px 20px;
+	margin-bottom: 100px;
+	border-radius: 5px;
+	border: none;
+}
 }
