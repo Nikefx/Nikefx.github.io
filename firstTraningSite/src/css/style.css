@@ -277,7 +277,7 @@
   font-size: 14px;
   border: none;
   border-radius: 5px;
-  padding: 20px 40px;
+  padding: 15px 40px;
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -289,8 +289,86 @@
 }
 .four-input {
   width: 100%;
-  padding: 18px 20px;
+  padding: 15px 20px;
   margin-bottom: 100px;
   border-radius: 5px;
   border: none;
+}
+.five-input {
+  font-family: OpenSansRg;
+  font-size: 18px;
+  color: #444444;
+  margin-top: 50px;
+  background-color: #e5e5e5;
+  border-radius: 7px;
+  border: none;
+  padding: 15px 40px;
+  width: 47%;
+}
+.five-input-l {
+  margin-left: 33px;
+}
+.five-textarea {
+  margin-top: 35px;
+  display: block;
+  width: 100%;
+  background-color: #e5e5e5;
+  border-radius: 7px;
+  border: none;
+  padding: 20px 40px;
+}
+.five-button {
+  background-color: #ff2d2d;
+  color: white;
+  font-family: OpenSansBold;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 40px;
+  margin-top: 33px;
+  margin-bottom: 100px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.five-button:hover {
+  color: #ff2d2d;
+  border: 2px solid #ff2d2d;
+  background-color: white;
+}
+.five-contact {
+  background-color: #313030;
+  height: 72%;
+  width: 153%;
+  margin-top: 50px;
+}
+.five-header {
+  color: white;
+  font-family: OpenSansBold;
+  padding-top: 120px;
+  font-size: 18px;
+  padding-left: 60px;
+  margin-bottom: 30px;
+}
+.five-text {
+  color: white;
+  font-family: OpenSansRg;
+  font-size: 16px;
+  padding-left: 60px;
+}
+.sectionSix {
+  background-color: #313030;
+}
+.six-text {
+  color: #e5e5e5;
+  font-family: OpenSansRg;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.six-button {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  border: none;
+  background-color: #313030;
 }
