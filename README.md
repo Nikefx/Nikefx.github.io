@@ -11,3 +11,8 @@
 [23 урок](https://nikefx.github.io/less23/lesson15/src/ "Домашняя работа 23")  
 [24 урок](https://nikefx.github.io/index.html "Домашняя работа 24")  
 [25 урок](https://nikefx.github.io/less25/src/ "Домашняя работа 25")  
+Урок 26
+[Табы](https://nikefx.github.io/less26/src/ "Домашняя работа 26")  
+[Аккордеон](https://nikefx.github.io/less26(1)/src/ "Домашняя работа 26")  
+
+
