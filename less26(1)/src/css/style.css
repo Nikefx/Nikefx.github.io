@@ -1,0 +1,42 @@
+.but {
+  background-color: #0bbaf0;
+  height: 55px;
+  width: 860px;
+}
+.car {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.car:focus {
+  text-decoration: none;
+  outline: green;
+  border: none;
+}
+.car:hover {
+  text-decoration: none;
+}
+.header {
+  text-align: center;
+  color: #0bbaf0;
+  margin-bottom: 40px;
+}
+.all {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: inline-block;
+  top: 15%;
+  margin-bottom: 500px;
+}
+.box {
+  height: 500px;
+}
+body {
+  background: #ffffff url(../img/bg.jpg) center center no-repeat;
+  width: 1000px;
+}
