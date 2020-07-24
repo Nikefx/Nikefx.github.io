@@ -15,6 +15,7 @@
 [Табы](https://nikefx.github.io/less26/src/ "Домашняя работа 26")  
 [Аккордеон](https://nikefx.github.io/less26(1)/src/ "Домашняя работа 26") 
 [27 урок](Nikefx.github.io/less27/src/ "Домашняя работа 27")  
+[28 урок](https://nikefx.github.io/28/src/ "Домашняя работа 28")    
 
 
 
