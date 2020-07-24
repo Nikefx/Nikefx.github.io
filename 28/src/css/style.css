@@ -1,0 +1,133 @@
+.box {
+  width: 630px;
+  height: 410px;
+  background-color: #03a4da;
+  border-radius: 5px;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  padding-top: 28px;
+}
+.box-box {
+  height: 96%;
+  width: 92%;
+  background-color: black;
+  margin-left: 4%;
+  border-radius: 5px;
+  border: 1.2px solid #7dd7f4;
+}
+.forma {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+  top: 15%;
+  position: fixed;
+}
+@-webkit-keyframes fadd {
+  from {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes fadd {
+  from {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.er {
+  background-color: #03a4da;
+  color: white;
+  border: 2px solid #84d3ed;
+}
+.er:hover {
+  border: none;
+  color: white;
+}
+.ter {
+  margin-left: 5px;
+}
+form {
+  margin-top: -300px;
+  margin-left: 55px;
+  position: absolute;
+  display: inline-block;
+}
+form .form-input {
+  color: white;
+  margin-bottom: 20px;
+  width: 484px;
+  height: 62px;
+  border-radius: 7px;
+  background: url(../img/input.png) center center no-repeat;
+  padding-left: 20px;
+  border: none;
+}
+form .form-input:focus {
+  outline: none;
+}
+form .form-label {
+  color: red;
+  margin-left: 25px;
+  display: block;
+  margin-bottom: 40px;
+}
+.button-in {
+  display: inline-block;
+  width: 130px;
+  height: 45px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #810601), color-stop(50%, #bf1d03), color-stop(80%, #810601));
+  background: linear-gradient(to right, #810601 20%, #bf1d03 50%, #810601 80%);
+  -webkit-transform: translateX(278px);
+          transform: translateX(278px);
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+.form-check {
+  display: inline-block;
+  margin-left: 25px;
+}
+.ron {
+  margin-top: -340px;
+}
+.boxik {
+  width: 3px;
+  -webkit-transform: translateX(555px);
+          transform: translateX(555px);
+  border: 7px solid transparent;
+  border-left: 7px solid #2f0201;
+  border-top: 7px solid #2f0201;
+}
+body {
+  background: url(../img/bg.jpg) center center no-repeat;
+  height: 1000px;
+}
+.vvvv {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
