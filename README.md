@@ -18,6 +18,6 @@
 [28 урок](https://nikefx.github.io/28/src/ "Домашняя работа 28")     
 [29 урок](https://nikefx.github.io/less29/src/ "Домашняя работа 29") 
 [30 урок](https://nikefx.github.io/less30/src/ "Домашняя работа 30")   
-
+[31 урок](https://nikefx.github.io/less31/src/ "Домашняя работа 31") 
 
 
