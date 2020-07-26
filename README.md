@@ -20,5 +20,5 @@
 [30 урок](https://nikefx.github.io/less30/src/ "Домашняя работа 30")   
 [31 урок](https://nikefx.github.io/less31/src/ "Домашняя работа 31")   
 [32 урок](https://nikefx.github.io/less32/ "Домашняя работа 32")  
-[33 урок](https://nikefx.github.io/less33/src/ "Домашняя работа 33") 
-
+[33 урок](https://nikefx.github.io/less33/src/ "Домашняя работа 33")   
+[34 урок](https://nikefx.github.io/less34/src/ "Домашняя работа 34") 
