@@ -3,7 +3,7 @@
 }
 .all {
   margin-top: 0;
-  background: url(../img/bg.jpg) 0 0 no-repeat;
+  background: url(../img/bg1.jpg) 0 0 no-repeat;
   background-size: 100%;
 }
 .main {
@@ -162,4 +162,91 @@
 }
 .gallery-all {
   margin-left: -20%;
+}
+.gallery-but {
+  text-align: center;
+}
+.gallery-button {
+  color: #ad7835;
+  padding: 10px 40px;
+  border: 1px solid #ad7835;
+  background-color: #373737;
+  background-color: #1d1d1d;
+  text-align: center;
+}
+.contact {
+  margin-top: 160px;
+}
+.contact-input {
+  background-color: #373737;
+  border: none;
+  border-bottom: 2px solid #737373;
+  padding: 10px;
+  color: #ffffff;
+  width: 45%;
+  margin-bottom: 30px;
+}
+.contact-input-two {
+  margin-left: 20px;
+}
+.contact-input:placeholder {
+  color: #ffffff;
+}
+.contact-texr {
+  margin-bottom: 50px;
+  display: block;
+  background-color: #373737;
+  border: none;
+  border-bottom: 2px solid #737373;
+  width: 95%;
+}
+.contact-button {
+  color: #ad7835;
+  padding: 10px 40px;
+  border: 1px solid #ad7835;
+  background-color: #373737;
+}
+.contact-bg {
+  height: 600px;
+  width: 120%;
+  margin-left: -10%;
+  background-color: #373737;
+}
+.contact-bg img {
+  margin-top: -100px;
+}
+.contact-header {
+  font-family: DroidSerif;
+  font-size: 50px;
+  color: #ad7835;
+  margin-top: 70px;
+}
+.contact-box {
+  height: 2px;
+  width: 10%;
+  background-color: #ad7835;
+  margin-bottom: 50px;
+}
+.aa {
+  background: url(../img/bg2.jpg) 0 0 no-repeat;
+}
+.footer {
+  margin-top: 200px;
+  text-align: center;
+}
+.footer-button {
+  color: #ad7835;
+  padding: 10px 40px;
+  border: 1px solid #ad7835;
+  background-color: #373737;
+  background-color: #1d1d1d;
+  margin-right: 30px;
+  margin-left: -15px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.footer-button img {
+  margin-left: -10px;
 }
