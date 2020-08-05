@@ -1,0 +1,184 @@
+@manycolor: #ad7835;
+@white: white;
+@boxcolor: #373737;
+.boxx(){
+height: 2px;
+		width: 10%;
+		background-color: @manycolor;
+}
+.button(){
+		color: @manycolor;
+		padding: 10px 40px;
+		border: 1px solid @manycolor;
+		background-color: @boxcolor;
+}
+.headers(){
+	font-family: DroidSerif;
+		font-size: 50px;
+		color: @manycolor;
+		margin-top: 70px;
+}
+.box{
+	height: 50px;
+}
+.all{
+	margin-top: 0;
+	background: url(../img/bg.jpg) 0 0 no-repeat;
+	background-size: 100%;
+}
+.main{
+
+	margin-top: 120px;
+
+	&-head{
+
+		h1{
+			font-family: DroidSerif;
+			font-weight: bold;
+			font-size: 100px;
+			color: @white;
+		}
+		h4{
+			
+			font-size: 18px;
+			color: @white;
+		}
+		p{
+			color: @manycolor;
+			font-size: 18px;
+		}
+	}
+	&-box{
+		
+		height: 2px;
+		width: 8%;
+		margin-left: 46%;
+		margin-top: -20px;
+		background-color: @white;
+	}
+}
+.about{
+	&-bg{
+		padding-left: 50px;
+		margin-top: 400px;
+		margin-left: -10%;
+		width: 120%;
+		height: 600px;
+		background-color: @boxcolor;
+	}
+	&-box{
+.boxx;
+margin-bottom: 20px;
+	}
+	&-header{
+	.headers;	
+	}
+	&-text{
+		font-size: 16px;
+		color: @white;
+	}
+	&-button{
+.button;
+margin-top: 20px;
+	}
+&-photo{
+	position: absolute;
+	margin-top: -98px;
+	margin-left: -90px;
+}
+}
+.lastest{
+	&-headers{
+		margin-top: 250px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+&-header{
+	.headers;
+}
+&-box{
+	.boxx;
+	margin-left: 36.5%;
+
+}
+&-shad{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 35px;
+	width: 300px;
+	height: 220px;
+	background-color: @boxcolor;
+}
+&-photo{
+	height: 60%;
+	position: relative;
+	z-index: 10;
+}
+&-h{
+	margin-top: -20px;
+	color: @manycolor;
+	font-family: DroidSerif;
+	font-size: 20px;
+}
+&-line{
+	height: 2px;
+	width: 100%;
+	background-color: @manycolor;
+}
+&-text{
+	color: @white;
+}
+&-lnk{
+	color: @manycolor;
+}
+&-two
+{
+
+	margin-top: 30px;
+	img{
+		height: 340px;
+	}
+}
+}
+.gallery{
+	&-header{
+		.headers;
+		margin-top: 100px;
+	}
+	&-box{
+		.boxx;
+	}
+	&-img{
+		margin-top: -120px;
+	}
+	&-one{
+		margin-left: 30px;
+		display: inline-block;
+		text-align: right;
+		margin-top: 40px;
+	}
+	&-riv{
+		margin-left: 45px;
+		margin-top: -120px;
+	}
+	&-two{
+		display: inline-block;
+		margin-left: 45px;
+		vertical-align: bottom;
+	}
+	&-f3{
+		margin-left: -35px;
+		margin-top: 145px;
+	}
+	&-tre{
+		margin-top: -120px;
+		margin-left: 45px;
+	}
+	&-sun{
+		margin-left: -35px;
+	}
+	&-all{
+		margin-left: -20%;
+	}
+}

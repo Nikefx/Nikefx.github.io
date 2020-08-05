@@ -1,0 +1,165 @@
+.box {
+  height: 50px;
+}
+.all {
+  margin-top: 0;
+  background: url(../img/bg.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+.main {
+  margin-top: 120px;
+}
+.main-head h1 {
+  font-family: DroidSerif;
+  font-weight: bold;
+  font-size: 100px;
+  color: #ffffff;
+}
+.main-head h4 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.main-head p {
+  color: #ad7835;
+  font-size: 18px;
+}
+.main-box {
+  height: 2px;
+  width: 8%;
+  margin-left: 46%;
+  margin-top: -20px;
+  background-color: #ffffff;
+}
+.about-bg {
+  padding-left: 50px;
+  margin-top: 400px;
+  margin-left: -10%;
+  width: 120%;
+  height: 600px;
+  background-color: #373737;
+}
+.about-box {
+  height: 2px;
+  width: 10%;
+  background-color: #ad7835;
+  margin-bottom: 20px;
+}
+.about-header {
+  font-family: DroidSerif;
+  font-size: 50px;
+  color: #ad7835;
+  margin-top: 70px;
+}
+.about-text {
+  font-size: 16px;
+  color: #ffffff;
+}
+.about-button {
+  color: #ad7835;
+  padding: 10px 40px;
+  border: 1px solid #ad7835;
+  background-color: #373737;
+  margin-top: 20px;
+}
+.about-photo {
+  position: absolute;
+  margin-top: -98px;
+  margin-left: -90px;
+}
+.lastest-headers {
+  margin-top: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.lastest-header {
+  font-family: DroidSerif;
+  font-size: 50px;
+  color: #ad7835;
+  margin-top: 70px;
+}
+.lastest-box {
+  height: 2px;
+  width: 10%;
+  background-color: #ad7835;
+  margin-left: 36.5%;
+}
+.lastest-shad {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 35px;
+  width: 300px;
+  height: 220px;
+  background-color: #373737;
+}
+.lastest-photo {
+  height: 60%;
+  position: relative;
+  z-index: 10;
+}
+.lastest-h {
+  margin-top: -20px;
+  color: #ad7835;
+  font-family: DroidSerif;
+  font-size: 20px;
+}
+.lastest-line {
+  height: 2px;
+  width: 100%;
+  background-color: #ad7835;
+}
+.lastest-text {
+  color: #ffffff;
+}
+.lastest-lnk {
+  color: #ad7835;
+}
+.lastest-two {
+  margin-top: 30px;
+}
+.lastest-two img {
+  height: 340px;
+}
+.gallery-header {
+  font-family: DroidSerif;
+  font-size: 50px;
+  color: #ad7835;
+  margin-top: 70px;
+  margin-top: 100px;
+}
+.gallery-box {
+  height: 2px;
+  width: 10%;
+  background-color: #ad7835;
+}
+.gallery-img {
+  margin-top: -120px;
+}
+.gallery-one {
+  margin-left: 30px;
+  display: inline-block;
+  text-align: right;
+  margin-top: 40px;
+}
+.gallery-riv {
+  margin-left: 45px;
+  margin-top: -120px;
+}
+.gallery-two {
+  display: inline-block;
+  margin-left: 45px;
+  vertical-align: bottom;
+}
+.gallery-f3 {
+  margin-left: -35px;
+  margin-top: 145px;
+}
+.gallery-tre {
+  margin-top: -120px;
+  margin-left: 45px;
+}
+.gallery-sun {
+  margin-left: -35px;
+}
+.gallery-all {
+  margin-left: -20%;
+}
