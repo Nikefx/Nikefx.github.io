@@ -61,6 +61,15 @@
   background-color: #373737;
   margin-top: 20px;
 }
+.about-button:hover {
+  color: #ffffff;
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  background-color: #373737;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #1d1d1d;
+}
 .about-photo {
   position: absolute;
   margin-top: -98px;
@@ -112,6 +121,10 @@
 }
 .lastest-lnk {
   color: #ad7835;
+}
+.lastest-lnk:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 .lastest-two {
   margin-top: 30px;
@@ -174,6 +187,14 @@
   background-color: #1d1d1d;
   text-align: center;
 }
+.gallery-button:hover {
+  color: #ffffff;
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  background-color: #373737;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 .contact {
   margin-top: 160px;
 }
@@ -205,6 +226,15 @@
   padding: 10px 40px;
   border: 1px solid #ad7835;
   background-color: #373737;
+}
+.contact-button:hover {
+  color: #ffffff;
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  background-color: #373737;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #1d1d1d;
 }
 .contact-bg {
   height: 600px;
@@ -240,6 +270,20 @@
   border: 1px solid #ad7835;
   background-color: #373737;
   background-color: #1d1d1d;
+  margin-right: 30px;
+  margin-left: -15px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.footer-button:hover {
+  color: #ffffff;
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  background-color: #373737;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   margin-right: 30px;
   margin-left: -15px;
   width: 80px;

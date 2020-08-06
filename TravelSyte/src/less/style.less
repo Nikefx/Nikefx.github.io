@@ -12,12 +12,20 @@ height: 2px;
 		border: 1px solid @manycolor;
 		background-color: @boxcolor;
 }
+.button-hover(){
+	color: @white;
+		padding: 10px 40px;
+		border: 1px solid @white;
+		background-color: @boxcolor;
+		transition: all 0.3s;
+}
 .headers(){
 	font-family: DroidSerif;
 		font-size: 50px;
 		color: @manycolor;
 		margin-top: 70px;
 }
+
 .box{
 	height: 50px;
 }
@@ -25,6 +33,7 @@ height: 2px;
 	margin-top: 0;
 	background: url(../img/bg1.jpg) 0 0 no-repeat;
 	background-size: 100%;
+
 }
 .main{
 
@@ -80,7 +89,11 @@ margin-bottom: 20px;
 	&-button{
 .button;
 margin-top: 20px;
+&:hover{
+.button-hover;
+background-color: #1d1d1d;
 	}
+}
 &-photo{
 	position: absolute;
 	margin-top: -98px;
@@ -131,6 +144,10 @@ margin-top: 20px;
 }
 &-lnk{
 	color: @manycolor;
+	&:hover{
+		color: @white;
+		text-decoration: none;
+	}
 }
 &-two
 {
@@ -142,6 +159,7 @@ margin-top: 20px;
 }
 }
 .gallery{
+
 	&-header{
 		.headers;
 		margin-top: 100px;
@@ -189,6 +207,9 @@ margin-top: 20px;
 		.button;
 		background-color: #1d1d1d;
 		text-align: center;
+		&:hover{
+			.button-hover;
+		}
 	}
 }
 .contact
@@ -219,7 +240,10 @@ width: 95%;
 }
 &-button{
 	.button;
-
+&:hover{
+	.button-hover;
+	background-color: #1d1d1d;
+}
 }
 	margin-top: 160px;
 	&-bg{
@@ -256,6 +280,15 @@ width: 95%;
 		height: 80px;
 margin-bottom: 200px;
 		text-align: center;
+		&:hover{
+			.button-hover;
+			margin-right: 30px;
+	margin-left: -15px;
+		width: 80px;
+		height: 80px;
+margin-bottom: 200px;
+		text-align: center;
+		}
 		img{
 			margin-left: -10px;
 		}
