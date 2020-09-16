@@ -1,0 +1,212 @@
+body {
+  overflow: hidden;
+}
+.header {
+  background: url(../img/2.jpg) center center no-repeat;
+  background-size: cover;
+}
+.header-content {
+  width: 100%;
+  height: 100vh;
+}
+.header-photo {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.header-photo-center {
+  text-align: center;
+}
+.header-head {
+  margin-top: 104px;
+  font-family: Comic Sans MS;
+  color: white;
+  font-size: 60px;
+}
+.header-text {
+  font-family: Comic Sans MS;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.header-button {
+  margin-top: 50px;
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 18px;
+  background-color: black;
+  opacity: 57%;
+  width: 80%;
+  border: 3px solid white;
+  height: 50px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.header-button:hover {
+  opacity: 90%;
+}
+.header-button:hover .modal-trigger {
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.header-button:focus {
+  outline: none;
+}
+.modal {
+  width: 90%;
+  top: 5%;
+  margin-left: 5%;
+  z-index: 1050;
+}
+.modal-header {
+  background-color: transparent;
+  border: none;
+}
+.modal-header-btn {
+  border: none;
+  background-color: transparent;
+  margin-left: 98%;
+}
+.modal-header-a {
+  width: 30px;
+  font-size: 30px;
+  color: white;
+}
+.modal-header-a:hover {
+  color: white;
+  text-decoration: none;
+}
+.modal-content {
+  border: 10px solid #999999;
+}
+.modal-foto {
+  width: 100%;
+}
+.modal-trigger {
+  padding: 9px 40px;
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 18px;
+}
+.modal-trigger:focus {
+  outline: none;
+}
+.about {
+  background: url(../img/about-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.about-content {
+  width: 100vh;
+  height: 100vh;
+}
+.gallery {
+  background: url(../img/gallery.jpg) center center no-repeat;
+  background-size: cover;
+}
+.gallery-content {
+  width: 100vh;
+  height: 100vh;
+}
+.contact {
+  background: url(../img/pexels-bess-hamiti-443356.jpg) center center no-repeat;
+  background-size: cover;
+}
+.contact-gallery {
+  width: 100vh;
+  height: 100vh;
+}
+.slider {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  width: 100px;
+  height: 40px;
+  font-size: 0;
+  border: none;
+}
+.slick-arrow:focus {
+  outline: none;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  left: 0;
+  background: url(../img/left.png) 0 0 no-repeat;
+  background-size: contain;
+  margin-left: 30px;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  right: 0;
+  margin-right: 30px;
+  background: url(../img/right.png) 0 0 no-repeat;
+  background-size: contain;
+}
+/* Стрелка не активная */
+.slick-dot {
+  left: 65%;
+  position: absolute;
+  margin-top: -700px;
+  z-index: 19;
+}
+.slick-dot li {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  font-family: Comic Sans MS;
+}
+.slick-dot button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+/* Точки (булиты) */
+.slick-dots {
+  left: 65%;
+  position: absolute;
+  margin-top: -710px;
+  z-index: 20;
+}
+.slick-dots li {
+  margin-left: 3px;
+  margin-right: 7px;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 0;
+  padding-top: 2px;
+  background-color: transparent;
+  height: 30px;
+  width: 70px;
+}
+/* Активная точка */
+/* Элемент точки */
+.slick-dots li button {
+  border: none;
+  background-color: transparent;
+}
+.slick-dots li button:focus {
+  outline: none;
+}

@@ -1,0 +1,149 @@
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/fotorama.css">
+
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+
+	<meta charset="UTF-8">
+	<title>FotoWeb</title>
+</head>
+<body>
+
+<div class="slider">
+	<div class="header" id="hea">
+		<div class="header-content">
+		  <div class="container">
+		  	<div class="row">
+		  		<div class="col-lg-12 header-photo-center">
+		  		<img class="header-photo" src="img/hotpng.com (25)-восстановлено.png" alt="">
+		  		</div>
+		  	</div>
+		  	<div class="row">
+		  		<div class="col-lg-12 header-photo-center">
+		  			<h1 class="header-head">Имя Фамилия</h1>
+		  			
+
+
+		  					  		</div>
+		  	</div>
+		  	<div class="row">
+		  		<div class="col-lg-8 offset-lg-2 header-photo-center">
+		  			<p class="header-text">Информация о себе</p>
+		  		</div>
+		  	</div>
+		  	<div class="row">
+		  		<div class="col-lg-4 offset-lg-4 header-photo-center">
+		  			<button class="header-button"><a class="modal-trigger" href="#modal1">Узнать цену</a></button>
+		  		</div>
+		  	</div>
+		  </div>
+		</div>
+	</div>
+		<div class="about" >
+		<div class="about-content" >
+			<p id="abo">Обо мне</p>
+		</div>
+	</div>
+	<div class="gallery" id=""gal>
+		<div class="gallery-content">
+			<p>галерея</p>
+		</div>
+	</div>
+	<div class="contact" id="con">
+		<div class="contact-gallery">
+			<p>Контакты</p>
+		</div>
+	</div>
+
+</div>
+
+
+<ul class="slick-dot" role="tablist">
+		  			<li role="presentation">
+		  				<button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 4" tabindex="0" aria-selected="true">Главная</button>
+		  			</li>
+		  			<li role="presentation" class="">
+		  				<button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 4" tabindex="-1"
+		  				>Обо мне</button>
+		  			</li>
+		  			<li role="presentation" class="">
+		  				<button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 4" tabindex="-1"
+		  				>Галерея</button>
+		  			</li>
+		  			<li role="presentation" class="">
+		  				<button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 4" tabindex="-1"
+		  				>Контакты</button>
+		  			</li>
+		  			</ul>
+
+
+<div id="modal1" class="modal">
+<div class="modal-header"><button class="modal-header-btn"><a class="modal-header-a" href="index.html">&times</a>	</button></div>
+				<div class="modal-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 header-photo-center">
+					<h2>Привееет</h2>
+				</div>
+				<div class="col-lg-6">
+					<img class="modal-foto" src="img/hotpng.com (25)-восстановлено.png" alt="">
+				</div>
+				<div class="col-lg-6">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Ratione in perferendis autem quidem. Dolores ratione commodi officia nisi, debitis doloremque deserunt, velit in libero laboriosam? Explicabo, quibusdam velit nihil corporis labore, quisquam alias cum, dolores ipsum illo ullam illum possimus!</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal-footer">
+			
+		</div>
+
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/rellax.min.js"></script>
+  <script src="js/fotorama.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.modal-trigger').click(function(event) {
+			$('.modal').modal({
+				dismissible: true,
+				opacity: 0,
+				inDuration: 2000
+			});
+		});
+		$('.modal-close').on('click', function(){
+$(this).closest('.modal').fadeOut(100);
+$(this).closest('.modal-backdrop').fadeOut(100);
+	
+});
+
+  $('.slider').slick({
+       infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true
+  });
+});
+</script>
+  <script>
+  	var rellax = new Rellax('.rellax');
+  </script>
+  <script>
+    var WOW = new WOW;
+WOW.init();
+</script>
+</body>
+</html>	
