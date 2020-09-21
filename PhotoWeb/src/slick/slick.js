@@ -2575,6 +2575,7 @@
         if (_.options.arrows === true && _.slideCount > _.options.slidesToShow) {
 
             _.$prevArrow.hide();
+            
             _.$nextArrow.hide();
 
         }
