@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
 </head>
-<body>
+<body class="overflow-hidden-x">
 
   <main class="main">
 
@@ -88,10 +88,10 @@
   </main>
 
   <!-- Блок 2: Преимущества -->
-  <section class="features" aria-label="Преимущества работы с нами">
+  <section class="features" aria-label="Преимущества работы с нами" style="overflow: hidden;">
     <div class="container-fluid">
       <h2 class="section-header">Преимущества работы с нами</h2>
-      <div class="features-slider" role="region" aria-label="Слайдер преимуществ">
+      <div class="features-slider" role="region" aria-label="Слайдер преимуществ" style="overflow: hidden;">
         <div class="features-block">
           <div class="features-img">
             <picture>
@@ -149,7 +149,7 @@
   </section>
 
   <!-- Блок 3: Цены -->
-  <div class="sectionThree" aria-label="Цены на штукатурные работы">
+  <div class="sectionThree" aria-label="Цены на штукатурные работы" style="overflow: hidden;">
     <div class="container-fluid">
       <div class="row justify-content-center mb-4">
         <div class="col-12 col-lg-4 text-center">
@@ -216,18 +216,18 @@
   </div>
 
   <!-- Блок 4: Отзывы -->
-  <section class="feedback" aria-label="Отзывы клиентов">
+  <section class="feedback" aria-label="Отзывы клиентов" style="overflow: hidden;">
     <div class="container-fluid">
       <div class="section-header text-center mb-4">
         <h2>Отзывы</h2>
       </div>
 
-      <div class="feedback-slider" role="region" aria-label="Слайдер отзывов">
+      <div class="feedback-slider" role="region" aria-label="Слайдер отзывов" style="overflow: hidden;">
         <!-- Элемент 1 -->
         <div class="feedback-slider-item">
           <div class="row">
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-              <div class="fotorama" data-width="100%" data-nav="thumbs">
+              <div class="fotorama" data-width="100%" data-nav="thumbs" style="width: 100%; max-width: 100%; overflow: hidden;">
                 <img src="img/1.png" alt="Фото объекта">
                 <img src="img/2.png" alt="Фото объекта">
                 <img src="img/3.png" alt="Фото объекта">
@@ -293,13 +293,15 @@
         </div>
       </div>
 
-      <!-- Картинка руки -->
-      <img class="hend img-fluid" src="img/heand.png" alt="Рука указывает на преимущества" width="400" height="auto">
+      <!-- Картинка руки — больше не absolute, просто блок -->
+      <div class="text-center mt-4">
+        <img src="img/heand.png" alt="Рука указывает на преимущества" class="img-fluid" style="max-width: 100%; height: auto;">
+      </div>
     </div>
   </section>
 
   <!-- Блок 5: Схема работы -->
-  <section class="schemas" aria-label="Схема работы">
+  <section class="schemas" aria-label="Схема работы" style="overflow: hidden;">
     <div class="container-fluid">
       <div class="section-header schemas-header text-center mb-3">
         <h2>Схема работы</h2>
@@ -337,22 +339,4 @@
           </p>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc4.png" alt="Начало работ" class="img-fluid">
-          <h4>Начало работ</h4>
-          <p>
-            Доставляем материалы и оборудование, подписываем договор  
-            и начинаем работы.
-          </p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc5.png" alt="Завершение работ" class="img-fluid">
-          <h4>Завершение работ</h4>
-          <p>
-            После окончания работы вы проверяете качество,  
-            подписываете акт сдачи и производите оплату.
-          </p>
-        </div>
-      </div>
-
-      <!-- Картинка рук -->
-      <img class="schemas-hand img-fluid"
+          <img src="img/sc4.png" alt="Начало работ" class="img-fluid
