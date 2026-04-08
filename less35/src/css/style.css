@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Убираем белый отступ справа глобально */
+/* Убираем белую полосу справа глобально */
 html,
 body {
   margin: 0;
@@ -113,10 +113,12 @@ body {
 .header {
   margin-bottom: 1.5rem;
   font-family: 'ProximaNova_Bold', sans-serif;
-
-  /* адаптивный шрифт через vw */
-  font-size: 2.2rem;
-  font-size: clamp(1.6rem, 4vw, 2.2rem); /* min, clamp, max */
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  text-align: center;
 }
 
 .header3 {
@@ -138,7 +140,7 @@ body {
   text-align: center;
 }
 
-/* Блок формы без position: absolute */
+/* Без position: absolute */
 label {
   font-size: 0.9rem;
   font-family: 'ProximaNova_Bold', sans-serif;
@@ -468,7 +470,7 @@ a:focus {
   height: auto;
 }
 
-/* Картинка руки в отзывах — без absolute, без отрицательных margin */
+/* Картинка руки в отзывах */
 .hend {
   margin: 1.5rem auto 0;
   max-width: 90%;
@@ -583,22 +585,26 @@ a:focus {
 .problems {
   position: relative;
   overflow: hidden;
+  padding: 2rem 0;
 }
 
-/* Картинка женщины без absolute и жёсткого margin-left */
-.problems-woman {
-  margin: 1.5rem auto 0;
-  max-width: 80%;
-  height: auto;
-  display: block;
-}
-
-/* В оригинале — min-height и border у списков, оставляем в рамках max-width: 100% */
 .problems-list {
   margin-bottom: 1.5rem;
-  border: 1px solid;
+  border: 1px solid #e8e8e8;
   padding: 1rem;
   max-width: 100%;
+}
+
+.problems-list-bad {
+  border-color: #e8e8e8;
+}
+
+.problems-list-bad h4 {
+  opacity: 0.5;
+}
+
+.problems-list-good {
+  border-color: #358015;
 }
 
 .problems-list ul {
@@ -626,27 +632,19 @@ a:focus {
   background-size: 70%;
 }
 
-.problems-list h4 {
-  font-size: 1rem;
-  color: black;
-}
-
-.problems-list-bad {
-  border-color: #e8e8e8;
-}
-
-.problems-list-bad h4 {
-  opacity: 0.5;
-}
-
-.problems-list-bad ul li::before {
+.problems-list ul li::before {
   background: url(../img/cancel-music.png) center no-repeat;
-}
-
-.problems-list-good {
-  border-color: #358015;
 }
 
 .problems-list-good ul li::before {
   background: url(../img/checked-symbol.png) center no-repeat;
+}
+
+/* Картинка женщины без position: absolute и без отрицательных margin */
+.problems-woman {
+  margin: 1.5rem auto 0;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
