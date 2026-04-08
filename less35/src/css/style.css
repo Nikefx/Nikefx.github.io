@@ -113,6 +113,10 @@ body {
 .header {
   margin-bottom: 1.5rem;
   font-family: 'ProximaNova_Bold', sans-serif;
+
+  /* адаптивный шрифт через vw */
+  font-size: 2.2rem;
+  font-size: clamp(1.6rem, 4vw, 2.2rem); /* min, clamp, max */
 }
 
 .header3 {
