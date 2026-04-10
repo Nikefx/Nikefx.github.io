@@ -114,14 +114,30 @@ h1, h2, h3, h4, h5, h6, p {
     background-position: center bottom;
   }
 }
+@media (max-width: 380px) {
+  .main {
+    background-image: url(../img/bg.jpg);
+    background-position: center bottom;
+  }
+}
 
 /* Полупрозрачный overlay перед таймером */
+}
+
+.footer {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #89ac76;
+}
+.footer p {
+    margin-bottom: 0 !important;
 }
 
 /*Таймер отсчета*/
 .timerBox { 
   margin-bottom: 1rem;
 }
+
 .time-unit { 
   text-align: center; 
   color: black; 
@@ -205,7 +221,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: white;
   margin-top: 1rem;
   font-size: 1rem;
-  background-color: #fdb403;
+  background-color: #89AC76;
   border: none;
   font-family: 'ProximaNova_Rg', sans-serif;
   padding: 0.75rem 1.5rem;
@@ -214,7 +230,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .layone-but:hover {
-  background-color: #fecb4f;
+  background-color: #ACB78E;
 }
 
 
@@ -262,10 +278,9 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 .headerlist {
-  margin-bottom: 1rem;
   font-family: 'DolomanPavljenko', sans-serif;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .headRow {
@@ -333,7 +348,7 @@ label {
   color: white;
   margin-top: 1rem;
   font-size: 1rem;
-  background-color: #fdb403;
+  background-color: #89ac76;
   border: none;
   font-family: 'ProximaNova_Rg', sans-serif;
   padding: 0.75rem 1.5rem;
@@ -349,9 +364,9 @@ a:focus {
   outline: none;
 }
 
-.btn:hover {
+.form-btn:hover {
   color: white;
-  background-color: #fcb858;
+  background-color: #acb78e;
 }
 
 
@@ -385,6 +400,85 @@ a:focus {
 
 .popup-header {
   font-weight: bold;
+}
+
+.map-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.map-card__header {
+  background-color: #cacaca;
+  padding: 16px;
+  gap: 12px;
+}
+
+.map-card__title {
+  font-family: DolomanPavljenko ;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.map-card__subtitle {
+  font-family: DolomanPavljenko ;
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+
+.map-wrap {
+  border-top: 1px solid #e9ecef;
+  min-height: 360px;
+}
+
+#yandex-map {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+}
+
+@media (max-width: 576px) {
+  .map-card__header {
+    padding: 14px;
+  }
+
+  .map-card__title {
+    font-size: 1.1rem;
+  }
+
+  .map-card__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .map-wrap,
+  #yandex-map {
+    min-height: 280px;
+  }
+
+  #open-balloon-btn {
+    width: 100%;
+  }
+}
+
+.map-link {
+  color: #0d6efd;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.map-link:hover,
+.map-link:focus {
+  color: #0a58ca;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.map-link__icon {
+  font-size: 0.9em;
+  margin-left: 4px;
 }
 
 .popup-close {
@@ -429,7 +523,6 @@ a:focus {
 
 .features {
   background-color: #e3e3e3;
-  margin-bottom: 3rem;
   overflow: hidden;
 }
 
@@ -590,10 +683,10 @@ a:focus {
   background-size: cover;
   padding: 4rem 0;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .feedback-text {
-  margin-top: 1rem;
   font-style: italic;
   padding: 0.75rem 1rem;
   border: 1px solid #26670a;

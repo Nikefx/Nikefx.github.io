@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="slick/slick.css">
   <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
+   
 </head>
 <body>
 
@@ -41,7 +42,7 @@
             </div> -->
 
           </div>
-          <div class="row justify-content-center" id="timer">
+          <div class="row justify-content-center timerdown" id="timer">
             <!-- JS заполнит -->
           </div>
         </div>
@@ -86,528 +87,217 @@
           <h2 class="section-header">Невеста</h2>
         </div>
       </div>
-
-      <div class="schemas-list row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc1.png" alt="Заявка" class="img-fluid">
-          <h2 class="header3">Пожелания по подаркам</h2>
-          <h3 class="headerlist">
-            Самый крутой подарок для нас - это Вы в день нашей свадьбы! <br>
-            Цветы - дело, конечно, классическое, но, честно говоря, мы просто не успеем насладиться всей этой красотой...<br>
-            Если захотите порадовать нас чем-то - будем рады бутылочке вина или варианту "на усмотрение"(да, и денежный привет тоже в тему)
-          </h3>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc2.png" alt="Выезд специалистов" class="img-fluid">
-          <h2 class="header3">Примечания</h2>
-          <h3 class="headerlist">
-            Будем благодарны, если вы воздержитесь от криков "ГОРОКО!" на празднике, ведь поцелуй - это знак выражения чувств, он не может быть по заказу
-          </h3>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc3.png" alt="Составление договора" class="img-fluid">
-          <h2 class="header3">Подтверждение</h2>
-          <h3 class="headerlist">
-            До 30 июля 2026 жмём на кнопку и говорим "Я с вами!"<br>
-            Пейджер не нужен - просто подтвердите, что будете на волне вместе с нами.
-          </h3>
-                </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc5.png" alt="Завершение работ" class="img-fluid">
-          <h2 class="header3">Дресс-Код</h2>
-          <h3 class="headerlist">
-            Мы рады сообщить, что дресс-кода на нашей свадьбе не будет.
-            Тем не менее, мы просим воздержаться от белого цвета, ярких цветов и броских принтов. Будем очень рады, если отдадите предпочтение спокойным и нейтральным тонам.
-          </h3>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <h2 class="section-header">Ждем Вас на нашей тусовке!</h2>
-        </div>
-
-        <!-- Подтверждение! -->
-        <div class="col-12 col-lg-8">
-          <div class="feedback-form">
-            <form action="#" autocomplete="on" novalidate>
-              <div class="row">
-                <div class="col-12 col-lg-6 mb-3">
-                  <div class="form-group">
-                    <label for="name2">Ваше имя</label>
-                    <input class="form-control form-input feed-in" type="text" id="name2" required>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                  <div class="form-group">
-                    <label for="phone2">Номер телефона</label>
-                    <input class="form-control form-input feed-in" type="tel" id="phone2" required>
-                  </div>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
-                  <button class="btn layone-but form-btn block-center but-feed w-100">
-                    Оставьте заявку
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="features-slider" role="region" aria-label="Слайдер преимуществ" style="overflow: hidden;">
-        <div class="features-block">
-          <div class="features-img">
-            <picture>
-              <source srcset="img/Shape 1.svg" type="image/svg+xml">
-              <img src="img/coin (2).png" alt="Платите по факту" class="img-fluid">
-            </picture>
-          </div>
-          <h3>Платите по факту</h3>
-          <p>
-            Вы оплачиваете выполненные работы только после их завершения.  
-            Никаких скрытых доплат и промежуточных платежей.
-          </p>
-        </div>
-        <div class="features-block">
-          <div class="features-img">
-            <picture>
-              <source srcset="img/Forma 1.svg" type="image/svg+xml">
-              <img src="img/open-folder-with-document (1).png" alt="Заключаем договор" class="img-fluid">
-            </picture>
-          </div>
-          <h3>Заключаем договор</h3>
-          <p>
-            Перед началом работ заключаем договор на юридическое лицо.  
-            Вы можете быть уверены, что все обязательства будут выполнены.
-          </p>
-        </div>
-        <div class="features-block">
-          <div class="features-img">
-            <picture>
-              <source srcset="img/clock.svg" type="image/svg+xml">
-              <img src="img/clock-circular-outline.png" alt="Точно в срок" class="img-fluid">
-            </picture>
-          </div>
-          <h3>Точно в срок</h3>
-          <p>
-            Работаем строго по установленным срокам, прописанным в договоре.  
-            Если не успеваем, вы платите меньше.
-          </p>
-        </div>
-        <div class="features-block">
-          <div class="features-img">
-            <picture>
-              <source srcset="img/pig.svg" type="image/svg+xml">
-              <img src="img/piggy-bank (1).png" alt="Экономьте на материалах" class="img-fluid">
-            </picture>
-          </div>
-          <h3>Экономьте на материалах</h3>
-          <p>
-            Мы являемся структурным подразделением компании поставщика строительных смесей gicema.ru  
-            и даём самые выгодные цены.
-          </p>
-        </div>
-      </div> -->
-    </div>
-  </section>
-
-  <!-- Блок 3: Цены -->
-  <div class="sectionThree" aria-label="Цены на штукатурные работы" style="overflow: hidden;">
-    <div class="container-fluid">
-      <div class="row justify-content-center mb-4">
-        <div class="col-12 col-lg-4 text-center">
-          <h2 class="section-header three-header">Цены</h2>
-          <p class="text-center three-p">Выберите подходящий вариант для вас</p>
-        </div>
-        <div class="col-12 col-lg-4 text-center d-flex align-items-start">
-          <button class="btn layone-but form-btn text-uppercase three-header-btn w-100">
-            Рассчитать точную стоимость
-          </button>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-          <div class="price-block">
-            <h4>Штукатурка вашим материалом</h4>
-            <img src="img/1.png" alt="Ваш материал — штукатурка" class="img-fluid">
-            <span class="price-tag">от 300 руб/м<sup>2</sup></span>
-            <ul class="price-list">
-              <li>Проведение работ</li>
-              <li>Уборка</li>
-            </ul>
-            <button class="button btn layone-but form-btn text-uppercase w-100">
-              Заказать
-            </button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-          <div class="price-block">
-            <h4>Штукатурка под шпаклевку</h4>
-            <img src="img/2.png" alt="Штукатурка под шпаклевку" class="img-fluid">
-            <span class="price-tag">от 530 руб/м<sup>2</sup></span>
-            <ul class="price-list">
-              <li>Завоз материала и его подъем</li>
-              <li>Проведение работ</li>
-              <li>Уборка</li>
-              <li>Гарантия 2 года</li>
-            </ul>
-            <button class="button btn layone-but form-btn text-uppercase w-100">
-              Заказать
-            </button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mb-4">
-          <div class="price-block">
-            <h4>Штукатурка под обои</h4>
-            <img src="img/3.png" alt="Штукатурка под обои" class="img-fluid">
-            <span class="price-tag">от 560 руб/м<sup>2</sup></span>
-            <ul class="price-list">
-              <li>Завоз материала и его подъём</li>
-              <li>Проведение работ</li>
-              <li>Уборка</li>
-              <li>Гарантия 2 года</li>
-              <li>Можно сразу клеить обои</li>
-            </ul>
-            <button class="button btn layone-but form-btn text-uppercase w-100">
-              Заказать
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Блок 4: Отзывы -->
-  <section class="feedback" aria-label="Отзывы клиентов" style="overflow: hidden;">
-    <div class="container-fluid">
-      <div class="section-header text-center mb-4">
-        <h2>Отзывы</h2>
-      </div>
-
-      <div class="feedback-slider" role="region" aria-label="Слайдер отзывов" style="overflow: hidden;">
-        <!-- Элемент 1 -->
-        <div class="feedback-slider-item">
-          <div class="row">
-            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-              <div class="fotorama" data-width="100%" data-nav="thumbs" style="width: 100%; max-width: 100%; overflow: hidden;">
-                <img src="img/1.png" alt="Фото объекта">
-                <img src="img/2.png" alt="Фото объекта">
-                <img src="img/3.png" alt="Фото объекта">
-                <img src="img/4.png" alt="Фото объекта">
-                <img src="img/5.jpg" alt="Фото объекта">
-                <img src="img/6.jpeg" alt="Фото объекта">
-              </div>
-            </div>
-            <div class="col-12 col-lg-6">
-              <p>Объект: г. Москва, Нахимовский проспект д.10</p>
-              <p>Площадь: <strong>357 м<sup>2</sup></strong></p>
-              <p>Выполнено за: <strong>10 дней</strong></p>
-              <p>Стоимость: <strong>550 рублей за квадратный метр</strong></p>
-              <p>Особенности: <strong>перепады неровности стен достигали до 6 см</strong></p>
-              <div class="media">
-                <img src="img/slider-og.png" class="mr-3" alt="Фото заказчика">
-                <div class="media-body">
-                  <span>Заказчик</span>
-                  <h5 class="mt-0">Нахимов Артём</h5>
-                </div>
-              </div>
-              <div class="feedback-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.  
-                Aspernatur totam iusto veritatis itaque provident nulla.
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Элемент 2 и 3 — аналогично -->
-      </div>
-
-      <!-- Форма в блоке отзывов -->
-      <div class="row mt-4 justify-content-center">
-        <div class="col-12 col-lg-8">
-          <div class="feedback-form">
-            <h3 class="mb-4">
-              Хотите так же? Оставьте Ваши контактные данные
+      <div class="container py-4">
+        <div class="schemas-list row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <img src="img/sc1.png" alt="Заявка" class="img-fluid">
+            <h2 class="header3">Пожелания по подаркам</h2>
+            <h3 class="headerlist">
+              Самый крутой подарок для нас - это Вы в день нашей свадьбы! <br>
+              Цветы - дело, конечно, классическое, но, честно говоря, мы просто не успеем насладиться всей этой красотой...<br>
+              Если захотите порадовать нас чем-то - будем рады бутылочке вина или варианту "на усмотрение"(да, и денежный привет тоже в тему)
             </h3>
-            <form action="#" autocomplete="on" novalidate>
-              <div class="row">
-                <div class="col-12 col-lg-6 mb-3">
-                  <div class="form-group">
-                    <label for="name2">Ваше имя</label>
-                    <input class="form-control form-input feed-in" type="text" id="name2" required>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <img src="img/sc2.png" alt="Выезд специалистов" class="img-fluid">
+            <h2 class="header3">Примечания</h2>
+            <h3 class="headerlist">
+              Будем благодарны, если вы воздержитесь от криков "ГОРОКО!" на празднике, ведь поцелуй - это знак выражения чувств, он не может быть по заказу
+            </h3>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <img src="img/sc3.png" alt="Составление договора" class="img-fluid">
+            <h2 class="header3">Подтверждение</h2>
+            <h3 class="headerlist">
+              До 30 июля 2026 жмём на кнопку и говорим "Я с вами!"<br>
+              Пейджер не нужен - просто подтвердите, что будете на волне вместе с нами.
+            </h3>
+                  </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <img src="img/sc5.png" alt="Завершение работ" class="img-fluid">
+            <h2 class="header3">Дресс-Код</h2>
+            <h3 class="headerlist">
+              Мы рады сообщить, что дресс-кода на нашей свадьбе не будет.
+              Тем не менее, мы просим воздержаться от белого цвета, ярких цветов и броских принтов. Будем очень рады, если отдадите предпочтение спокойным и нейтральным тонам.
+            </h3>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h2 class="section-header">Ждем Вас на нашей тусовке!</h2>
+          </div>
+
+          <!-- Подтверждение! -->
+        </div>
+      </div>
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <div class="feedback-form">
+              <form id="feedbackForm" autocomplete="on" novalidate>
+                <div class="row">
+                  <div class="col-12 col-lg-6 mb-3">
+                    <div class="form-group">
+                      <label class="form-group map-card__title" for="fullname2">Имя и фамилия</label>
+                      <input class="form-control form-input feed-in" type="text" id="fullname2" name="fullname" required>
+                      <div class="invalid-feedback">Введите имя и фамилию</div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="form-group">
-                    <label for="phone2">Номер телефона</label>
-                    <input class="form-control form-input feed-in" type="tel" id="phone2" required>
+
+                <!-- Присутствие на свадьбе -->
+                <div class="row">
+                  <div class="col-12 mb-3 d-flex align-items-center justify-content-between">
+                    <div class="me-3">
+                      <span class="map-card__title">1. Вы придете к нам на праздник?</span>
+                    </div>
+                    <div class="ms-auto d-flex align-items-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="attendance" id="attendance_yes" value="да">
+                        <label class="form-check-label map-card__title" for="attendance_yes">Да</label>
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="attendance" id="attendance_no" value="нет">
+                        <label class="form-check-label map-card__title" for="attendance_no">Нет</label>
+                      </div>
+                    </div>
+                    <div class="invalid-feedback ms-3">Выберите один вариант: да или нет</div>
                   </div>
                 </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
-                  <button class="btn layone-but form-btn block-center but-feed w-100">
-                    Оставьте заявку
-                  </button>
+
+                <!-- Будут ли с вами дети -->
+                <div class="row">
+                  <div class="col-12 mb-3 d-flex align-items-center justify-content-between">
+                    <div class="me-3">
+                      <span class="map-card__title">2. Будут ли с вами дети?</span>
+                    </div>
+                    <div class="ms-auto d-flex align-items-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="with_children" id="children_yes" value="да" >
+                        <label class="form-check-label map-card__title" for="children_yes">Да</label>
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="with_children" id="children_no" value="нет">
+                        <label class="form-check-label map-card__title" for="children_no">Нет</label>
+                      </div>
+                    </div>
+                    <div class="invalid-feedback ms-3">Выберите один вариант: да или нет</div>
+                  </div>
                 </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <!-- Картинка руки — без absolute, просто блок -->
-      <div class="text-center mt-4">
-        <img src="img/heand.png" alt="Рука указывает на преимущества" class="img-fluid" style="max-width: 100%; height: auto;">
-      </div>
-    </div>
-  </section>
+                <!-- Транспорт от ЗАГСа до ресторана -->
+                <div class="row">
+                  <div class="col-12 mb-3 d-flex align-items-center justify-col-12t">
+                    <div class="me-3">
+                      <span class="map-card__title">3. Нужен ли трансфер от ЗАГСа до ресторана?</span>
+                    </div>
+                    <div class="ms-auto d-flex align-items-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="transfer" id="transfer_yes" value="да" >
+                        <label class="form-check-label map-card__title" for="transfer_yes">Да</label>
+                      </div>
 
-  <!-- Блок 5: Схема работы -->
-  <section class="schemas" aria-label="Схема работы" style="overflow: hidden;">
-    <div class="container-fluid">
-      <div class="section-header schemas-header text-center mb-3">
-        <h2>Схема работы</h2>
-      </div>
-      <div class="row">
-        <div class="col-12 mb-3">
-          <div class="schemas-text text-center">
-            <p>Работа над вашим объектом будет включать следующие этапы</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="schemas-list row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc1.png" alt="Заявка" class="img-fluid">
-          <h4>Заявка</h4>
-          <p>
-            Оставляйте онлайн‑заявку или <br>
-            звоните +7 495 771 05 08
-          </p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc2.png" alt="Выезд специалистов" class="img-fluid">
-          <h4>Выезд специалистов</h4>
-          <p>
-            В течение 1 рабочего дня к вам приезжает специалист,  
-            который выполняет замеры для точной стоимости работ.
-          </p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc3.png" alt="Составление договора" class="img-fluid">
-          <h4>Составление договора</h4>
-          <p>
-            Готовим договор и согласовываем с вами.
-          </p>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="transfer" id="transfer_no" value="нет">
+                        <label class="form-check-label map-card__title" for="transfer_no">Нет</label>
+                      </div>
+                    </div>
+                    <div class="invalid-feedback ms-3">Выберите один вариант: да или нет</div>
+                  </div>
                 </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc4.png" alt="Начало работ" class="img-fluid">
-          <h4>Начало работ</h4>
-          <p>
-            Доставляем материалы и оборудование, подписываем договор  
-            и начинаем работы.
-          </p>
+
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-6">
+                    <button type="submit" class="btn layone-but form-btn block-center but-feed w-100" id="submitBtn">
+                      <span class="btn-text">Дать ответ</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/sc5.png" alt="Завершение работ" class="img-fluid">
-          <h4>Завершение работ</h4>
-          <p>
-            После окончания работы вы проверяете качество,  
-            подписываете акт сдачи и производите оплату.
-          </p>
+      </div>
+      <div class="container">
+        <div class="schemas-list row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <img src="img/sc6.png" alt="Заявка" class="img-fluid">
+            <h2 class="header3">Свадебное расписание</h2>
+            <h3 class="headerlist">
+              11:30 торжественная церемония регистрации брака <br>
+              14:30 Welcome-зона для гостей<br>
+              15:30 начало банкета <br>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="map-card">
+              <div class="map-card__header">
+                <h2 class="map-card__title mb-1">ЗАГС Коминтерновского района</h2>
+                <a
+  class="map-card__subtitle mb-0 map-link"
+  href="https://yandex.ru/maps/193/voronezh/?ll=39.191672%2C51.684996&mode=poi&poi%5Bpoint%5D=39.191597%2C51.685012&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1005847305&rtext=51.685066%2C39.192306~51.685073%2C39.191598&rtt=auto&ruri=~&z=20.47"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Воронеж, Политехнический переулок, 3 <span class="map-link__icon">↗</span>
+</a>
+              </div>
+
+              <div class="embed-responsive embed-responsive-16by9 map-wrap">
+                <div id="yandex-map" class="embed-responsive-item"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Картинка руки в блоке схемы -->
-      <div class="text-center mt-4">
-        <img src="img/handschem.png" alt="Рука в блоке схемы работы" class="img-fluid" style="max-width: 100%; height: auto;">
-      </div>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script>
+        ymaps.ready(init);
+
+        function init() {
+          var coords = [51.685073, 39.191598];
+
+          var map = new ymaps.Map("yandex-map", {
+            center: coords,
+            zoom: 16,
+            controls: ["zoomControl", "fullscreenControl"]
+          });
+
+          var placemark = new ymaps.Placemark(
+            coords,
+            {
+              balloonContentHeader: "Воронеж, Политехнический переулок, 3",
+              balloonContentBody: "Учебный/офисный адрес в Воронеже. Нажмите на метку, чтобы увидеть описание."
+            },
+            {
+              preset: "islands#redDotIconWithCaption"
+            }
+          );
+
+          map.geoObjects.add(placemark);
+        }
+      </script>
     </div>
+    <footer class="footer bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-12 col-md-8">
+                    <h5 class="header3">Мы вас ждем!</h5>
+                    <div class="mb-3 ">
+                        <!-- Заготовка под картинку: замените src на путь к вашему изображению -->
+                        <img src="img/sc7.png" alt="Заявка" class="img-photo">
+                    </div>
+                    <p class="mb-0">&copy; 2026 Ваш сайт. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
   </section>
-
-  <!-- Блок 6: Всё включено -->
-  <section class="allOn" aria-label="Все на 100% включено" style="overflow: hidden;">
-    <div class="container-fluid">
-      <div class="allOn-header text-center">
-        <h2>Все на 100% включено!</h2>
-      </div>
-      <div class="allOn-text">
-        <p class="text-center">
-          При выполнении работ с нашим материалом в стоимость входит
-        </p>
-      </div>
-
-      <div class="allOn-list row">
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/1..png" alt="Материал" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Материал:</strong> штукатурка, грунтовка или бетоноконтакт,  
-                маяки, сетка на стыки
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/2..png" alt="Доставка" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Доставка оборудования и материала на объект</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/3..png" alt="Подготовка" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Подготовка поверхности</strong> (очистка, грунтование)
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/4..png" alt="Установка маяков" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Установка маяков</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/5..png" alt="Оштукатуривание" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Оштукатуривание поверхности</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/6..png" alt="Удаление маяков" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                Удаление маяков
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/7..png" alt="Глянцевание" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Глянцевание</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3">
-          <div class="row align-items-center">
-            <div class="col-12 col-lg-3 text-center">
-              <img src="img/8..png" alt="Уборка и вывоз мусора" class="img-fluid">
-            </div>
-            <div class="col-12 col-lg-9">
-              <p>
-                <strong>Уборка и вывоз мусора</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Блок 7: Мы развеем все опасения -->
-  <section class="problems" aria-label="Мы развеем все опасения" style="overflow: hidden;">
-    <div class="container-fluid">
-      <div class="section-header text-center mb-4">
-        <h2>Мы развеем все опасения</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-lg-5">
-          <div class="problems-list problems-list-bad">
-            <h4>Какие могут быть проблемы</h4>
-            <ul>
-              <li>Стены и углы будут неровными</li>
-              <li>Ремонт затянется на долгие месяцы</li>
-              <li>Сложности с доставкой и разгрузкой материалов</li>
-              <li>Останется мусор и пыль после работ</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-lg-5 offset-lg-2">
-          <div class="problems-list problems-list-good">
-            <h4>Наше решение</h4>
-            <ul>
-              <li>Высокая квалификация специалистов + минимум 5‑летний опыт работы = идеально ровные поверхности</li>
-              <li>Соблюдаем сроки, которые прописаны в договоре. На квартиру площадью 135 м<sup>2</sup> уходит от 3 до 5 дней</li>
-              <li>Доставка материала и подъём бесплатно</li>
-              <li>Убираем и вывозим мусор после работ</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Картинка женщины без absolute -->
-      <div class="text-center mt-4">
-        <img src="img/shutterstock_106059848.png" alt="Менеджер ЖКХ" class="img-fluid" style="max-width: 80%; height: auto;">
-      </div>
-    </div>
-  </section>
-
-  <!-- Модальное окно -->
-  <div class="popup" style="display: none;">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close">&times;</button>
-        <h4 class="popup-header">Заинтересовало?</h4>
-        <p>Оставьте свои контактные данные для связи</p>
-        <div class="popup-form">
-          <form action="#" autocomplete="on" novalidate>
-            <div class="form-group">
-              <label for="name3">Ваше имя</label>
-              <input class="form-control form-input" type="text" id="name3" required>
-            </div>
-            <div class="form-group">
-              <label for="phone3">Номер телефона</label>
-              <input class="form-control form-input" type="tel" id="phone3" required>
-            </div>
-            <div class="form-group">
-              <label for="message3">Сообщение</label>
-              <textarea class="form-control form-input" rows="5" id="message3" required></textarea>
-            </div>
-            <button class="btn layone-but form-btn block-center w-100">
-              Оставьте заявку
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Скрипты -->
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -615,6 +305,7 @@
   <script src="slick/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   <script src="js/parallax.min.js"></script>
+
 
   <script>
     $(document).ready(function(){
@@ -703,6 +394,111 @@
         </div>
       `).join('');
     }, 1000);
+  </script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Группы чекбоксов
+    const groups = [
+      { yes: "attendance_yes", no: "attendance_no" },
+      { yes: "children_yes", no: "children_no" },
+      { yes: "transfer_yes", no: "transfer_no" },
+    ];
+
+    groups.forEach((group) => {
+      const yesCheckbox = document.getElementById(group.yes);
+      const noCheckbox = document.getElementById(group.no);
+
+      function disableOpposite(checkedEl, oppositeEl) {
+        if (checkedEl.checked) {
+          oppositeEl.checked = false;
+        }
+      }
+
+      yesCheckbox.addEventListener("change", () => {
+        disableOpposite(yesCheckbox, noCheckbox);
+      });
+
+      noCheckbox.addEventListener("change", () => {
+        disableOpposite(noCheckbox, yesCheckbox);
+      });
+    });
+  });
+  </script>
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("b2iS4hgWVEFM2XgKW"); // замените на свой
+    })();
+  </script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("feedbackForm");
+
+    // Группы чекбоксов
+    const groups = [
+      { yes: "attendance_yes", no: "attendance_no" },
+      { yes: "children_yes", no: "children_no" },
+      { yes: "transfer_yes", no: "transfer_no" },
+    ];
+
+    groups.forEach((group) => {
+      const yesCheckbox = document.getElementById(group.yes);
+      const noCheckbox = document.getElementById(group.no);
+
+      function disableOpposite(checkedEl, oppositeEl) {
+        if (checkedEl.checked) {
+          oppositeEl.checked = false;
+        }
+      }
+
+      yesCheckbox.addEventListener("change", () => {
+        disableOpposite(yesCheckbox, noCheckbox);
+      });
+
+      noCheckbox.addEventListener("change", () => {
+        disableOpposite(noCheckbox, yesCheckbox);
+      });
+    });
+
+    // Отправка формы через EmailJS
+    form.addEventListener("submit", function (e) {
+      console.log("📝 Форма: submit сработал");
+      e.preventDefault();
+
+      if (!this.checkValidity()) {
+        console.log("❌ Валидация не прошла");
+        this.classList.add("was-validated");
+        return;
+      }
+
+      console.log("📧 Начинаю отправку через EmailJS...");
+      emailjs
+        .sendForm(
+          "service_honp18v",
+          "template_kdf5dtw",
+          this,
+          {
+            publicKey: "b2iS4hgWVEFM2XgKW",
+          }
+        )
+        .then(
+          function (response) {
+            console.log("✅ SUCCESS:", response);
+            alert("Ваш ответ отправлен, спасибо!");
+            form.reset();
+            groups.forEach((g) => {
+              document.getElementById(g.yes).checked = false;
+              document.getElementById(g.no).checked = false;
+            });
+          },
+          function (error) {
+            console.log("❌ ERROR:", error);
+            alert("Не удалось отправить ответ. Попробуйте позже.");
+          }
+        );
+    });
+  });
   </script>
 </body>
 </html>
