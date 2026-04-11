@@ -42,11 +42,13 @@
             </div> -->
 
           </div>
+      
+        </div>
+        <div>
           <div class="row justify-content-center timerdown" id="timer">
             <!-- JS заполнит -->
-          </div>
+          </div>  
         </div>
-
       </div>
     </section>
 
@@ -67,7 +69,7 @@
             </div>
 
             <div class="col-12 col-lg-4 offset-lg-2 col-md-6 offset-md-3 order-2 order-lg-2">
-              <img src="img/secondphoto.jpg" alt="Платите по факту" class="img-second" style="width: 70%" >
+              <img src="img/secondphoto.jpg" alt="Платите по факту" class="img-second fade-in-scroll" style="width: 70%" >
             </div>
           </div>
         </div>
@@ -79,11 +81,11 @@
 
       <div class="schemas-list row justify-content-center">
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/maximilian.png" alt="Заявка" class="img-photo" style="width: 60%">
+          <img src="img/maximilian.png" alt="Заявка" class="img-photo fade-in-scroll" style="width: 60%">
           <h2 class="section-header">Жених</h2>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-          <img src="img/viktoria.png" alt="Выезд специалистов" class="img-photo" style="width: 60%">
+          <img src="img/viktoria.png" alt="Выезд специалистов" class="img-photo fade-in-scroll" style="width: 60%">
           <h2 class="section-header">Невеста</h2>
         </div>
       </div>
@@ -498,6 +500,31 @@
           }
         );
     });
+  });
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+  
+    const observerOptions = {
+      threshold: 0.1,  // Срабатывает когда 10% видно
+      rootMargin: '0px 0px -50px 0px'  // Немного заранее
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in-active');
+          // ✅ Останавливаем наблюдение (один раз)
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    // Наблюдаем за всеми фото
+    const fadeElements = document.querySelectorAll('.fade-in-scroll');
+    fadeElements.forEach(el => observer.observe(el));
+    
+    console.log(`✨ Активировано для ${fadeElements.length} элементов`);
   });
   </script>
 </body>

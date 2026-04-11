@@ -134,16 +134,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /*Таймер отсчета*/
-.timerBox { 
-  margin-bottom: 1rem;
-}
+
 
 .time-unit { 
   text-align: center; 
   color: black; 
   padding: 15px 5px; 
   transition: all 0.3s ease;
-  position: ;
   cursor: pointer;
 }
 .time-unit:hover { transform: scale(1.08); box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
@@ -189,6 +186,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 400px) {
   .time-number { font-weight: 900; letter-spacing: -1px; }
 }
+
 
 
 
@@ -284,7 +282,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .headRow {
-  margin-bottom: 18rem;
+  margin-bottom: 15rem;
 }
 
 
@@ -922,3 +920,18 @@ a:focus {
   display: block;
   border-radius: 8px;
 }
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Плавная */
+}
+
+/* Активное состояние (когда видно) */
+.fade-in-scroll.fade-in-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Вариации задержек */
+.fade-in-scroll:nth-child(odd) { transition-delay: 0.1s; }
+.fade-in-scroll:nth-child(even) { transition-delay: 0.2s; }
